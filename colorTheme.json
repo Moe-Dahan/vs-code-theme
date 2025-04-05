@@ -1,0 +1,66 @@
+{
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        
+
+    "[Monokai]": {
+        "editor.background": "#1d1d1d",
+        "editor.foreground": "#880000",
+        "editor.selectionBackground": "#ff00ff",
+        "breadcrumb.foreground": "#00FF00",
+        "icon.foreground": "#00FF00",
+        "activityBar.border": "#fd0000",
+        "activityBar.activeBorder":"#1eff00",
+        "activityBar.foreground":"#2bff00",
+        "activityBar.inactiveForeground":"#ff0000",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+    "[Monokai]": {
+        "comments": "#00ffea",
+        "functions": "#fffb00",
+        "keywords": "#ff8800",
+        "numbers": "#9dff00",
+        "strings": "#00ff22",
+        "types": "#00f7ff",
+        "variables": "#00fff2",
+        "textMateRules": [
+            {
+                "scope": ["comment"],
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "italic bold underline"
+                }
+            },
+            {
+                "scope": ["meta.function"],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": ["entity.name.function"],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": ["variable"],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": ["entity.name.type"],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            }
+        ]
+    },
+},
+"editor.multiCursorModifier": "ctrlCmd"
+
+}
