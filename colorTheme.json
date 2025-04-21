@@ -37,9 +37,6 @@
                     "fontStyle": "bold"
                 }
             },
-            // {
-            //     "scope" : ["mod"]
-            // },
             {
                 "scope": ["meta.function"],
                 "settings": {
