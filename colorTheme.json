@@ -1,39 +1,45 @@
 {
     "workbench.startupEditor": "none",
     "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Default Dark+",
     "workbench.colorCustomizations": {
         
 
-    "[Monokai]": {
-        "editor.background": "#1d1d1d",
-        "editor.foreground": "#880000",
-        "editor.selectionBackground": "#ff00ff",
-        "breadcrumb.foreground": "#00FF00",
-        "icon.foreground": "#00FF00",
-        "activityBar.border": "#fd0000",
-        "activityBar.activeBorder":"#1eff00",
-        "activityBar.foreground":"#2bff00",
-        "activityBar.inactiveForeground":"#ff0000",
-        }
     },
     "editor.tokenColorCustomizations": {
-    "[Monokai]": {
-        "comments": "#00ffea",
-        "functions": "#fffb00",
-        "keywords": "#ff8800",
-        "numbers": "#9dff00",
-        "strings": "#00ff22",
-        "types": "#00f7ff",
-        "variables": "#00fff2",
-        "textMateRules": [
+        "[Default Dark+]": {
+            "comments": "#6C757D",
+            "functions": "#007BFF",
+            "keywords": "#FF073A",
+            "numbers": "#00ff3c",
+            "strings": "#FFC107",
+            "types": "#00ddff",
+            "variables": "#e100ff",
+            "textMateRules": [
             {
                 "scope": ["comment"],
                 "settings": {
-                    "foreground": "#FF0000",
+                    "foreground": "#6C757D",
                     "fontStyle": "italic bold underline"
                 }
             },
+            {
+                "scope" : ["variable.other"],
+                "settings": {
+                    "foreground": "#00ddff",
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope" : ["meta.function-call"],
+                "settings": {
+                    "foreground": "#FFC107",
+                    "fontStyle": "bold"
+                }
+            },
+            // {
+            //     "scope" : ["mod"]
+            // },
             {
                 "scope": ["meta.function"],
                 "settings": {
@@ -56,11 +62,61 @@
                 "scope": ["entity.name.type"],
                 "settings": {
                     "fontStyle": "italic bold"
+                    }
                 }
-            }
-        ]
+            ]
+        }
     },
-},
-"editor.multiCursorModifier": "ctrlCmd"
-
+    "editor.multiCursorModifier": "ctrlCmd"
 }
+    
+
+    // "editor.tokenColorCustomizations": {
+    // "[Monokai]": {
+    //     "comments": "#00ffea",
+    //     "functions": "#1eff00",
+    //     "keywords": "#ff5100",
+    //     "numbers": "#2bff00",
+    //     "strings": "#3cff00",
+    //     "types": "#00a2ff",
+    //     "variables": "#ff00ff",
+    // }
+
+//         "textMateRules": [
+//             {
+//                 "scope": ["comment"],
+//                 "settings": {
+//                     "foreground": "#ffffff",
+//                     "fontStyle": "italic"
+//                 }
+//             },
+//             {
+//                 "scope": ["meta.function"],
+//                 "settings": {
+//                     "fontStyle": "italic bold"
+//                 }
+//             },
+//             {
+//                 "scope": ["entity.name.function"],
+//                 "settings": {
+//                     "fontStyle": "italic bold"
+//                 }
+//             },
+//             {
+//                 "scope": ["variable"],
+//                 "settings": {
+//                     "fontStyle": "italic bold"
+//                 }
+//             },
+//             {
+//                 "scope": ["entity.name.type"],
+//                 "settings": {
+//                     "fontStyle": "italic bold"
+//                 }
+//             }
+//         ]
+//     },
+// },
+// "editor.multiCursorModifier": "ctrlCmd"
+
+// }
