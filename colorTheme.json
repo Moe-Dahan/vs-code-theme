@@ -3,8 +3,25 @@
     "files.autoSave": "afterDelay",
     "workbench.colorTheme": "Default Dark+",
     "workbench.colorCustomizations": {
-        
+        "[Default Dark+]": {
+            "activityBar.border": "#00fff2",
+            "activityBar.background": "#1d1d1d",
+            "sideBar.background": "#1d1d1d",
+            "sideBar.border": "#00fff2",
+            "editor.background": "#1d1d1d",
+            "editor.selectionBackground" : "#000f50",
+            "editor.hoverHighlightBackground": "#d400ff",
+            "terminal.border" : "#00f7ff",
+            "terminal.foreground": "#00f7ff",
 
+            "activityBar.foreground": "#1efd00",
+            "activityBar.activeBorder": "#2afd00",
+            "activityBar.inactiveForeground" : "#01e1ff",
+            "toolbar.hoverOutline": "#00ff15",
+            "tab.activeBorder": "#00ff2a",
+            "tab.inactiveBackground": "#111111",
+            "tab.inactiveForeground": "#fdfdfd",
+        }
     },
     "editor.tokenColorCustomizations": {
         "[Default Dark+]": {
@@ -67,53 +84,3 @@
     "editor.multiCursorModifier": "ctrlCmd"
 }
     
-
-    // "editor.tokenColorCustomizations": {
-    // "[Monokai]": {
-    //     "comments": "#00ffea",
-    //     "functions": "#1eff00",
-    //     "keywords": "#ff5100",
-    //     "numbers": "#2bff00",
-    //     "strings": "#3cff00",
-    //     "types": "#00a2ff",
-    //     "variables": "#ff00ff",
-    // }
-
-//         "textMateRules": [
-//             {
-//                 "scope": ["comment"],
-//                 "settings": {
-//                     "foreground": "#ffffff",
-//                     "fontStyle": "italic"
-//                 }
-//             },
-//             {
-//                 "scope": ["meta.function"],
-//                 "settings": {
-//                     "fontStyle": "italic bold"
-//                 }
-//             },
-//             {
-//                 "scope": ["entity.name.function"],
-//                 "settings": {
-//                     "fontStyle": "italic bold"
-//                 }
-//             },
-//             {
-//                 "scope": ["variable"],
-//                 "settings": {
-//                     "fontStyle": "italic bold"
-//                 }
-//             },
-//             {
-//                 "scope": ["entity.name.type"],
-//                 "settings": {
-//                     "fontStyle": "italic bold"
-//                 }
-//             }
-//         ]
-//     },
-// },
-// "editor.multiCursorModifier": "ctrlCmd"
-
-// }
