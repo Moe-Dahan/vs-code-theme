@@ -82,7 +82,7 @@
         }
     },
     "editor.multiCursorModifier": "ctrlCmd",
-    "workbench.iconTheme": "file-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "explorer.compactFolders": false,
 }
     
