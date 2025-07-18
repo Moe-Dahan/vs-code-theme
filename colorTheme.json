@@ -81,6 +81,8 @@
             ]
         }
     },
-    "editor.multiCursorModifier": "ctrlCmd"
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.iconTheme": "file-icons",
+    "explorer.compactFolders": false,
 }
     
