@@ -1,6 +1,11 @@
 {
-    "workbench.startupEditor": "none",
+    "editor.fontLigatures": false,
     "files.autoSave": "afterDelay",
+    "editor.fontFamily": "\"Source Code Pro\", monospace", "editor.fontWeight": "900", "editor.fontSize":14,
+    "terminal.integrated.fontFamily": "DejaVu Sans Mono",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.compactFolders": false,
     "workbench.colorTheme": "Default Dark+",
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
@@ -13,7 +18,6 @@
             "editor.hoverHighlightBackground": "#d400ff",
             "terminal.border" : "#00f7ff",
             "terminal.foreground": "#00f7ff",
-
             "activityBar.foreground": "#1efd00",
             "activityBar.activeBorder": "#2afd00",
             "activityBar.inactiveForeground" : "#01e1ff",
@@ -77,12 +81,23 @@
                 "settings": {
                     "fontStyle": "italic bold"
                     }
+                },
+            {
+                "scope": ["meta.tag"],
+                "settings": {
+                    "foreground": "#04dfba",
+                    "fontStyle": "bold"
                 }
+            },
+            {
+                "scope": ["entity.name.tag"],
+                "settings": {
+                    "foreground": "#ff00f2",
+                    "fontStyle": "bold"
+                }
+            },
             ]
         }
     },
-    "editor.multiCursorModifier": "ctrlCmd",
-    "workbench.iconTheme": "material-icon-theme",
-    "explorer.compactFolders": false,
 }
-    
+
