@@ -1,3 +1,7 @@
+# Updated added fonts
+Updated added "Source Code Pro" go to google https://fonts.google.com/specimen/Source+Code+Pro and download the font, install them using ttf,
+go to extensions and download material-icon-theme then just copy and paste the json file.
+
 # A Color theme for VS Code 
 ![Screenshot from 2025-05-30 13-33-06](https://github.com/user-attachments/assets/5a687bc8-1460-42df-9ea2-07df754c7871)
 
