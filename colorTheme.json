@@ -4,7 +4,7 @@
     "editor.fontFamily": "\"Source Code Pro\", monospace", "editor.fontWeight": "900", "editor.fontSize":14,
     "terminal.integrated.fontFamily": "DejaVu Sans Mono",
     "editor.multiCursorModifier": "ctrlCmd",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icons",
     "explorer.compactFolders": false,
     "workbench.colorTheme": "Default Dark+",
     "workbench.colorCustomizations": {
